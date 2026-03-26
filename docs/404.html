@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criminal Web Services - Technical Documentation & Research Archive for digital governance, regulatory frameworks, and computational systems infrastructure.">
+    <meta name="keywords" content="technical documentation, research archive, digital governance, regulatory frameworks, computational systems, age assurance, content integrity">
+    <meta name="author" content="Criminal Web Services">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://currentlydying.github.io/texting-instruments/">
+    <meta property="og:title" content="Criminal Web Services - Technical Documentation & Research Archive">
+    <meta property="og:description" content="Authoritative repository for technical documentation, regulatory frameworks, and academic research in digital governance.">
+
+    <title>404 - Page Not Found | Criminal Web Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 4rem 2rem;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        .error-message {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 2rem;
+        }
+
+        .error-description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <h1>CRIMINAL WEB SERVICES</h1>
+                <p class="subtitle">Technical Documentation & Research Archive</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="directives.html">DIRECTIVES</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="publications.html">PUBLICATIONS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="classification-banner">
+        <span>UNCLASSIFIED // FOR OFFICIAL USE</span>
+    </div>
+
+    <main class="content-wrapper">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <h2 class="error-message">RESOURCE NOT LOCATED</h2>
+            <p class="error-description">
+                The requested resource could not be located within the Criminal Web Services
+                documentation repository. The specified path does not correspond to any indexed
+                publication, directive, or technical specification currently maintained in the archive.
+            </p>
+            <div class="error-actions">
+                <a href="index.html" class="btn">RETURN TO HOME</a>
+                <a href="resources.html" class="btn btn-secondary">BROWSE RESOURCES</a>
+                <a href="publications.html" class="btn btn-secondary">VIEW PUBLICATIONS</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CRIMINAL WEB SERVICES</h4>
+                <p>Technical Documentation & Research Archive</p>
+                <p class="footer-domain">www.criminalwebservices.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>REPOSITORY</h4>
+                <p><a href="https://github.com/CurrenlyDying/texting-instruments">GitHub Repository</a></p>
+                <p>Licensed under applicable open source provisions</p>
+            </div>
+            <div class="footer-section">
+                <h4>UPDATES</h4>
+                <p>Last Modified: <span id="last-modified"></span></p>
+                <p>Repository Version: 2026.1</p>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>
+                All materials published herein are provided for informational purposes.
+                No warranty, express or implied, is provided regarding accuracy, completeness, or fitness for any particular purpose.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('last-modified').textContent = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>

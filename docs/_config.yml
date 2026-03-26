@@ -1,0 +1,62 @@
+# Criminal Web Services
+# GitHub Pages Configuration
+
+title: "Criminal Web Services"
+description: "Technical Documentation & Research Archive"
+url: "https://currentlydying.github.io"
+baseurl: "/texting-instruments"
+
+# Theme settings
+theme: null
+markdown: kramdown
+
+# Collections for future content
+collections:
+  directives:
+    output: true
+    permalink: /:collection/:name
+  publications:
+    output: true
+    permalink: /:collection/:name
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: "Criminal Web Services"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - "*.zip"
+  - "*.pdf"
+  - .git
+  - .gitignore
+
+# Include files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+twitter:
+  card: summary_large_image
+
+# Build settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# Organization
+github:
+  repository_url: https://github.com/CurrenlyDying/texting-instruments
+  owner_name: CurrenlyDying
+  repository_name: texting-instruments
